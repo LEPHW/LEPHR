@@ -6,14 +6,16 @@
 
 <script>
 import { mapGetters } from 'vuex'
-
 export default {
   name: 'Dashboard',
   computed: {
     ...mapGetters([
       'name'
     ])
-  }
+    // LEP() {
+    //   return this.$store.getters.name
+    // }
+  },
 }
 </script>
 
